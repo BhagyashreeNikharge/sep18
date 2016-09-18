@@ -7,14 +7,36 @@ body {
     background-repeat: no-repeat;
     padding-top: 40px;
 }
+
+.button {
+  padding: 5px 15px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: yellow;
+  background-color: #5948E6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #33E4FF}
+
+.button:active {
+  background-color: #33E4FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 </style>
 </head>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-<center><a href="map.html"><button onclick="map.html" style="height:50px;width:100px" >MAP</button></a></center>
-</br></br><center><a href="map.html"><button onclick="contacts.html" style="height:50px;width:100px">CONTACTS</button></a></center>
-</br></br><center><a href="map.html"><button onclick="gallery.html"style="height:50px;width:100px">GALLERY</button></a></center>
-</br></br><center><a href="map.html"><button onclick="otherinfo.html"style="height:50px;width:100px">OTHER INFO</button></a></center>
+<center><a href="map.html"><button class="button" onclick="map.html" style="height:50px;width:100px" >MAP</button></a></center>
+</br></br><center><a href="map.html"><button class="button" onclick="contacts.html" style="height:50px;width:100px">CONTACTS</button></a></center>
+</br></br><center><a href="map.html"><button class="button" onclick="gallery.html"style="height:50px;width:100px">GALLERY</button></a></center>
+</br></br><center><a href="map.html"><button class="button" onclick="otherinfo.html"style="height:50px;width:100px">OTHER INFO</button></a></center>
 
 </body>
 </html>
